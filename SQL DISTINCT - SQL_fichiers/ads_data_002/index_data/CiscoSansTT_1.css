@@ -1,0 +1,19 @@
+@font-face {
+	font-family:CiscoSansTT;
+	src: url('https://s0.2mdn.net/creatives/assets/2502019/CiscoSansTT_1.woff') format('woff');
+}
+
+@font-face {
+	font-family:CiscoSansTT-Regular;
+	src: url('https://s0.2mdn.net/creatives/assets/2502019/CiscoSansTT-Regular_1.woff') format('woff');
+}
+
+@font-face {
+	font-family:CiscoSansTT-Light;
+	src: url('https://s0.2mdn.net/creatives/assets/2502019/CiscoSansTT-Light_1.woff') format('woff');
+}
+
+@font-face {
+	font-family:CiscoSansTT-ExtraLight;
+	src: url('https://s0.2mdn.net/creatives/assets/2502019/CiscoSansTT-ExtraLight_1.woff') format('woff');
+}

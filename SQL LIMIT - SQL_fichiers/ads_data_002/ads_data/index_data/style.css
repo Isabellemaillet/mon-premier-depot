@@ -1,0 +1,502 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'BouyguesRead-Light';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesRead-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BouyguesRead-Regular';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesRead-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BouyguesRead-Medium';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesRead-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BouyguesRead-Semibold';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesRead-Semibold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BouyguesRead-Bold';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesRead-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'BouyguesSpeak-Bold';
+  src: url(https://s0.2mdn.net/creatives/assets/3668572/BouyguesSpeak-Bold.woff) format('woff');
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: BouyguesSpeak-Bold;
+  font-weight: 700;
+  color: white;
+  line-height: 160%;
+}
+
+#cadre {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 600px;
+  box-shadow: 0px 0px 0px 1px #333333 inset;
+  overflow: hidden;
+}
+
+.bouton {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.colorCom {
+  color: #25465f;
+}
+
+.colorCom2 {
+  color: #00509f;
+}
+
+.bgColorCom {
+  background-color: #ce171a;
+}
+
+#clickthrough-button{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 120px;
+    height: 600px;
+    box-shadow:0px 0px 0px 1px #333333 inset;
+    background-color: white;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+.logo{
+    position: absolute;
+    width: 73px;
+    bottom: 50px;
+    right: 25px;
+}
+
+.screen {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.stabilisateur {
+  position: absolute;
+  width: 120px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#lifestyle{
+  position: absolute;
+  width: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#part1{
+    box-shadow:0px 0px 0px 5px #fff inset;
+}
+
+
+#part23, #part24{
+  top: auto;
+  left: auto;
+  right: 0px;
+  bottom: 0px;
+}
+
+#textStart {
+  position: absolute;
+  font-family: 'BouyguesSpeak-Bold', Sans-Serif;
+  bottom: 120px;
+  left: 10px;
+  font-size: 18px;
+  letter-spacing: -0.35px;
+  width: 100px;
+  text-shadow: 0 3px 3px rgba(0,0,0,.5);
+}
+
+
+.shine
+{
+    background: #08a0cd -webkit-gradient(linear, left top, right top, from(#c3f1ff), to(#69d6f7), color-stop(0.5, #fff)) 0 0 repeat-y;
+    -webkit-background-size: 30px;
+    
+    color: rgba(8, 160, 205, 0.3);
+    -webkit-background-clip: text;
+    
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shine
+{
+    0%
+    {
+        background-position: top left;
+    }
+    100%
+    {
+        background-position: top right;
+    }
+}
+
+
+p.shine
+{
+    margin: 0 auto;
+    width: 300px;
+	
+}
+
+
+
+#tvinttel
+{
+	color:#08a1cd;
+	  font-family: 'BouyguesRead-Bold', Sans-Serif;
+	      font-size: 15px;
+    margin-left: -25px;	
+}
+
+#bg_motif1{
+  position: absolute;  
+/*
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+*/
+  top: 0px;
+  left: 0px;
+  width: 300px;
+}
+
+#bg_motif2{
+  position: absolute;  
+  top: 0px;
+  left: 0px;
+  width: 300px;
+}
+
+#bg_motif3{
+  position: absolute;  
+  top: 0px;
+  right: 0px;
+  width: 300px;
+}
+
+#bg_motif4{
+  position: absolute;  
+  bottom: 0px;
+  right: 0px;
+  width: 300px;
+}
+
+#logofibre, #marielouise_couleur, #miseenplace{
+  position: absolute; 
+  left: 0px;
+  top: 0px;
+  width: 120px;
+  height: 600px;
+}
+
+#blockfibre{
+  position: absolute; 
+  width: 250px;
+  height: 250px;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#textMiddle{
+  position: absolute;
+  font-family: 'BouyguesRead-Semibold', Sans-Serif;
+  top: 27%;
+  font-size: 20px;
+  width: 250px;
+  text-align: center;
+  color: #25465f;
+  line-height: 80%;
+  transform: translateY(-50%);
+}
+
+#textMiddle span{
+  font-size: 18px;
+  font-family: 'BouyguesRead-Bold', Sans-Serif;
+}
+
+#textEnd {
+  top: 44px;
+  color: #25465f;
+  font-size: 12px;
+}
+
+#ML {
+  position: absolute;
+  left: 10px;
+ bottom: 12px;
+  font-family: 'BouyguesRead-Regular', Sans-Serif;
+  font-size: 8px;
+  width: 180px;
+  line-height: 115%;
+  opacity: 0.5;
+  color: #878787;
+  opacity: 1;
+}
+
+#logoFibreBleu{
+  position: absolute; 
+  left: 97px;
+  top: 24px;
+  width: 106px;
+}
+
+#traitBleu{
+  position: absolute; 
+  height: 1px;
+  width: 50px;
+    left: 30%;
+    top: 200px;
+  background-color: #25465f;
+}
+
+
+
+
+#blockoffre{
+  position: absolute; 
+  top: 230px;
+  left: 70px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#quantitymask{
+    position: absolute;
+  left: 44px;
+    top: 22px;
+ /*   overflow: hidden;
+background-color: grey;*/
+  
+}
+
+
+#maskprix{
+ /*  position: absolute;  
+ left: 50px;
+    top: 11px;
+    width: 500px;
+    height: 100px;
+  overflow: hidden;
+ background-color: grey;*/
+
+}
+
+
+#quantity
+{
+	font-size:36px;
+	font-family: 'BouyguesRead-Bold', Sans-Serif;
+
+}
+
+
+
+
+
+#blocprix{
+
+  font-size: 40px;
+  font-family: 'BouyguesRead-Semibold', Sans-Serif;
+left: 15px;
+    position: relative;
+}
+	
+
+#soit
+
+{
+	
+	font-size:12px;
+    font-family: 'BouyguesRead-Regular';
+    position: relative;
+
+
+
+}
+
+#year
+
+{
+    font-size: 10px;
+    font-family: 'BouyguesRead-Regular';
+   line-height: 15px;
+    text-align: center;
+	    margin-left: -10px;
+   
+    /* width: 300Px; */
+  
+}
+
+#value
+
+{
+	
+	position: absolute;
+   
+}
+	
+
+#quantitybloc{
+
+  font-family: 'BouyguesRead-Semibold', Sans-Serif;
+  
+    left: 50px;
+  top:500px;
+  
+  
+}
+
+
+
+#qc {
+position: relative;
+font-size: 22px;
+    top: -10px;
+
+}
+
+
+#qd {
+  font-size: 10px;
+    left: -20px;
+    position: relative;
+	  font-family: 'BouyguesRead-Semibold', Sans-Serif;
+}
+
+
+
+
+
+
+#firstyear
+{
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: -10px;
+font-family: 'BouyguesRead-Regular', Sans-Serif;
+text-align:center;
+	
+}
+
+
+
+#maskprix{
+    position: absolute;
+left:0px;
+top:235px;
+
+   
+}
+
+#currency{
+position: relative;
+    font-size: 20px;
+top: -15px;
+    left: 42px;
+}
+
+
+
+#virgule{
+  left: -12px;
+}
+
+#duree{
+  font-size: 16px;
+    top: 0px;
+   left: -13px;
+    position: relative;
+	  font-family: 'BouyguesRead-Semibold', Sans-Serif;
+}
+
+#renvoi{
+  font-size: 11px;
+  top: -20px;
+  left: -18px;
+}
+
+#cta{
+  position: absolute;
+  width: 88px;
+  height: 30px;
+  top: 400px;
+  left: 50%;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  background-color: #ff554b;
+}
+
+#textcta{
+  position: absolute;
+  width: 88px;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "BouyguesRead-Semibold";
+  font-size: 12px;
+  text-align: center;
+}
+
+.accident{
+  -moz-font-feature-settings: "ss01";
+  -webkit-font-feature-settings:"ss01";
+  font-feature-settings:"ss01";
+}
+
+#europe{
+  font-family: 'BouyguesRead-Regular';
+  font-size:8px;
+  margin-left:3px;
+}
